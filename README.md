@@ -1,39 +1,89 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# BoBoGototchi
 
-Welcome,
+![Home page gif]()
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Click on this link to visit the game]()
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+<br>
 
-## Codeanywhere Reminders
+# Content
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- [Introduction](#introduction)
+    * [User experience](#user-experience)
+    * [My vision for the game](#my-vision-for-the-game)
+- [Features](#features)
+- [Future features](#future-features)
+- [Design](#design)
+- [Technologies used](#technologies-used)
+   * [Balsemiq](#balsemiq)
+- [Testing](#testing)
+    * [Validation HTML, JavaScript and CSS](#validation-html,-javascript-and-css)
+    * [Lighthouse test](#lighthouse-test)
+    * [Testing on devices and browsers](#testing-on-devices-and-browsers)
+- [Bug fixes](#bug-fixes)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-`python3 -m http.server`
+<br>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### User experience
 
-`http_server`
+### My vision for the game
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<br>
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+# Features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br>
 
-To log into the Heroku toolbelt CLI:
+# Future features
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<br>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Design
 
----
+- <b>Font</b> : I got my font from [google fonts](https://fonts.google.com/).
+- <b>Icons</b> : I used the [Font Awesome](https://fontawesome.com/) website for all my icons.
 
-Happy coding!
+### Colour scheme
+
+<br>
+
+# Technologies used
+
+### Balsemiq
+
+<br>
+
+# Testing
+
+### Validation HTML, JavaScript and CSS
+
+### Lighthouse test
+
+### Testing on devices and browsers
+
+<br>
+
+# Bug fixes
+
+<br>
+
+# Deployment
+
+The website was deployed to my account on GitHub pages. The steps I took to deploy the website went as followed: 
+  - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
+  - In there, I navigated to the Settings tab.
+  - From the source section drop-down menu, I selected the Master Branch.
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/index.html).
+
+<br>
+
+# Credits
+
+- <b>README</b> : I copied some of the Readme code from my [previous Project](https://github.com/ObiWanBonobi/PP1/blob/main/README.md).
+- <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
