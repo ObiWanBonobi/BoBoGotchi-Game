@@ -1,8 +1,8 @@
-# BoBoGototchi
+# BoBoGotchi
 
 ![Home page gif]()
 
-[Click on this link to visit the game]()
+[Click on this link to visit the game](https://obiwanbonobi.github.io/PP2/index.html)
 
 <br>
 
@@ -85,5 +85,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/index.htm
 
 # Credits
 
+- <b>Code Ideas</b> : Some of my ideas grew from coding along a project called, [Love Math](https://github.com/Code-Institute-Org/love-maths), created by Code Institute.
 - <b>README</b> : I copied some of the Readme code from my [previous Project](https://github.com/ObiWanBonobi/PP1/blob/main/README.md).
+
 - <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>

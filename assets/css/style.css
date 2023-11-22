@@ -1,3 +1,28 @@
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
 body{
     font-family: 'Kanit', sans-serif;
+    text-align: center;
 }
+
+.play-button{
+    background-color: DodgerBlue;
+    width: 70px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 200%;
+    border-radius: 15px;
+}
+
+.play-button:hover {
+    background-color: RoyalBlue;
+}
+
