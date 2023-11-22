@@ -85,7 +85,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/index.htm
 
 # Credits
 
-- <b>Code Ideas</b> : Some of my ideas grew from coding along a project called, [Love Math](https://github.com/Code-Institute-Org/love-maths), created by Code Institute.
+- <b>Code Ideas</b> : Some of my ideas grew from coding along projects called, [Love Math](https://github.com/Code-Institute-Org/love-maths) and [Love Running project](https://github.com/Code-Institute-Solutions/readme-template), created by Code Institute.
 - <b>README</b> : I copied some of the Readme code from my [previous Project](https://github.com/ObiWanBonobi/PP1/blob/main/README.md).
-
+- <b>JavaScript</b> : I got some of my JavaScript ideas from [this online project](https://codepen.io/Creasium/pen/NWGOGrr?editors=1000).
 - <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>

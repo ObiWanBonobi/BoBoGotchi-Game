@@ -12,19 +12,24 @@ body{
     background-color: rgba(100, 180, 110);
 }
 
-/* Little monster animation */
+/* Shows or hides the div sections on page */
+.hide {
+    display: none;
+}
+
+.show {
+    display:contents;
+}
+
+/* Little monster image */
 #monster-img{
     margin: 100px 0 100px 0;
     width: 90%;
     height: auto;
 }
 
-/* Buttons play section */
-#start-button{
-    width: 110px;
-    font-size: 100%;
-}
-
+/* Buttons for start, play section and retry */
+#start-button,
 #end-button{
     width: 110px;
     font-size: 100%;
