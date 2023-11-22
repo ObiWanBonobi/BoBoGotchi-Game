@@ -18,16 +18,21 @@
 </head>
 
 <body>
-    <header>
+    <!-- Start game page -->
+    <div class="start-page">
         <h1>BoBoGotchi</h1>
-    </header>
-    <main>
-        <div>
-            <img id="play-area" src="assets/images/cute.svg" alt="cute monster">
-        </div>
-    </main>
-    <footer>
-        <div>
+        <h2>Play with Bobo</h2>
+        <p>Rules: blabla</p>
+        <button id="start-button" class="play-button">Start game</button>
+    </div>
+    <!-- Monster play area page, needs, picture and buttons -->
+    <div class="play-page">
+        <!-- Monster needs -->
+        <div>icon with what the monster wants</div>
+        <!-- Monster image -->
+        <img id="monster-img" src="assets/images/cute.svg" alt="cute monster">
+        <!-- Monster play buttons -->
+        <div id="buttons">
             <button id="drink" class="play-button">
                 <i class="fa-solid fa-droplet"></i>
             </button>
@@ -41,8 +46,13 @@
                 <i class="fa-solid fa-baseball"></i>
             </button>
         </div>
-    </footer>
-
+    </div>
+    <!-- Game over page -->
+    <div class="end-page">
+        <h1>BoBoGotchi</h1>
+        <h2>Bobo died rip</h2>
+        <button id="end-button" class="play-button">Play again</button>
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 

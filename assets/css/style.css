@@ -12,23 +12,26 @@ body{
     background-color: rgba(100, 180, 110);
 }
 
-main {
-    flex: 1 0 auto;
-    margin-top: 60px;
-    display: flex;
-    flex-direction: column;
-}
-
 /* Little monster animation */
-#play-area{
+#monster-img{
     margin: 100px 0 100px 0;
-    width: 80%;
-    height: fit-content;
+    width: 90%;
+    height: auto;
 }
 
 /* Buttons play section */
-footer{
-    display: flex;
+#start-button{
+    width: 110px;
+    font-size: 100%;
+}
+
+#end-button{
+    width: 110px;
+    font-size: 100%;
+}
+
+#buttons{
+    display: inherit;
     justify-content: space-evenly;
 }
 
