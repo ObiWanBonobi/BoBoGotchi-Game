@@ -12,13 +12,25 @@ body{
     background-color: rgba(100, 180, 110);
 }
 
-/* Shows or hides the div sections on page */
+/* Hides the div sections on page */
 .hide {
     display: none;
 }
 
-.show {
-    display:contents;
+/* Little monster need bubble */
+#monster-needs{
+    display: inherit;
+    justify-self: space-evenly;
+}
+
+.need-icon{
+    font-size: 247%;
+    background-color: rgb(136, 19, 19);
+    color: rgb(226, 226, 213);
+    border-radius: 45px;
+    width: 80px;
+    height: 80px;
+    padding-top: 20px;
 }
 
 /* Little monster image */
