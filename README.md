@@ -46,6 +46,7 @@
 
 - <b>Font</b> : I got my font from [google fonts](https://fonts.google.com/).
 - <b>Icons</b> : I used the [Font Awesome](https://fontawesome.com/) website for all my icons.
+- <b>Icon images</b> : I got the images for the play buttons from[flaticon](https://www.flaticon.com/).
 
 ### Colour scheme
 

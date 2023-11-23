@@ -23,32 +23,27 @@
         <h1>BoBoGotchi</h1>
         <h2>Play with Bobo</h2>
         <p>Rules: blabla</p>
-        <button id="start-button" class="play-button">Start game</button>
+        <button id="start-button" class="buttons">Start game</button>
     </div>
     <!-- Monster play area page, needs, picture and buttons -->
     <div class="play-page">
         <!-- Monster needs -->
-        <div id="monster-needs">
-            <i class="fa-solid fa-droplet need-icon"></i>
-            <i class="fa-solid fa-drumstick-bite need-icon"></i>
-            <i class="fa-solid fa-hand-holding-heart need-icon"></i>
-            <i class="fa-solid fa-baseball need-icon"></i>
-        </div>
+        <div class="need-bubble">class="need-icon"</div>
         <!-- Monster image -->
         <img id="monster-img" src="assets/images/cute.svg" alt="cute monster">
         <!-- Monster play buttons -->
-        <div id="buttons">
-            <button id="drink" class="play-button">
-                <i class="fa-solid fa-droplet"></i>
+        <div class="play-buttons">
+            <button id="drink" class="buttons">
+                <img class="img-button" src="assets/images/pet-water.webp" alt="water bowl icon">
             </button>
-            <button id="eat" class="play-button">
-                <i class="fa-solid fa-drumstick-bite"></i>
+            <button id="eat" class="buttons">
+                <img class="img-button" src="assets/images/pet-food.webp" alt="food bowl icon">
             </button>
-            <button id="pet" class="play-button">
-                <i class="fa-solid fa-hand-holding-heart"></i>
+            <button id="love" class="buttons">
+                <img class="img-button" src="assets/images/pet-love.webp" alt="love icon">
             </button>
-            <button id="play" class="play-button">
-                <i class="fa-solid fa-baseball"></i>
+            <button id="play" class="buttons">
+                <img class="img-button" src="assets/images/pet-play.webp" alt="play icon">
             </button>
         </div>
     </div>
@@ -56,7 +51,7 @@
     <div class="end-page">
         <h1>BoBoGotchi</h1>
         <h2>Bobo died rip</h2>
-        <button id="end-button" class="play-button">Play again</button>
+        <button id="end-button" class="buttons">Play again</button>
     </div>
     <script src="assets/js/script.js"></script>
 </body>

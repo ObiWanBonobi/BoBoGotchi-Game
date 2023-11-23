@@ -3,7 +3,7 @@ let startButton = document.getElementById("start-button");
 let endButton = document.getElementById("end-button");
 let drinkButton = document.getElementById("drink");
 let eatButton = document.getElementById("eat");
-let petButton = document.getElementById("pet");
+let loveButton = document.getElementById("love");
 let playButton = document.getElementById("play");
 
 // let for page change
@@ -19,4 +19,3 @@ document.querySelector(".end-page").classList.toggle("hide");
 startButton.addEventListener("click", function () {
     startGame();
 });
-
