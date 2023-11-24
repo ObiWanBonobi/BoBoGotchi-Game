@@ -19,3 +19,35 @@ document.querySelector(".end-page").classList.toggle("hide");
 startButton.addEventListener("click", function () {
     startGame();
 });
+
+function startGame() {
+    // Shows the Play page and hides the start page
+    document.querySelector(".start-page").classList.toggle("hide");
+    document.querySelector(".play-page").classList.toggle("hide");
+
+    // Play game page
+    // Needs bubble
+    function needBubble(){
+        let needs = getRandomInt(4);
+
+        showAndHideBubble(needs);
+    }
+
+    function showAndHideBubble(needs) {
+        let monsterNeeds = document.querySelectorAll(".need-icon")
+
+        for (let i = 0; i < monsterNeeds.length; i++){
+            if (i === needs){
+                monsterNeeds[i].classList.remove("hide")
+            } else {
+                monsterNeeds[i].classList.add("hide")
+            }
+        }
+    }
+
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+    }
+
+    needBubble();
+}

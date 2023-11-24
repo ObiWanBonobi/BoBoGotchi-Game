@@ -20,20 +20,21 @@ body{
 /* Little monster need bubble */
 .need-bubble{
     display: flex;
-    justify-self: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .need-icon{
     background-color: rgb(136, 19, 19);
     border-radius: 45px;
-    width: 80px;
-    height: 80px;
-    padding: 5px;
+    width: 130px;
+    height: 130px;
+    padding: 20px;
 }
 
 /* Little monster image */
 #monster-img{
-    margin: 100px 0 100px 0;
+    margin: 50px 0 50px 0;
     width: 90%;
     height: auto;
 }

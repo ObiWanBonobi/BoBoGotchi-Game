@@ -89,4 +89,9 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/index.htm
 - <b>Code Ideas</b> : Some of my ideas grew from coding along projects called, [Love Math](https://github.com/Code-Institute-Org/love-maths) and [Love Running project](https://github.com/Code-Institute-Solutions/readme-template), created by Code Institute.
 - <b>README</b> : I copied some of the Readme code from my [previous Project](https://github.com/ObiWanBonobi/PP1/blob/main/README.md).
 - <b>JavaScript</b> : I got some of my JavaScript ideas from [this online project](https://codepen.io/Creasium/pen/NWGOGrr?editors=1000).
+- <b>Learning</b> : 
+  * [This website](https://www.basedash.com/blog/how-to-add-an-image-in-an-array-in-javascript) helped me to understand how to add images to a JavaScript file.
+  * [Thie website](https://stackoverflow.com/questions/63591210/hide-elements-after-a-certain-value-with-javascript) helped me understand how to add my red needs bubble.
+  *
+
 - <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
