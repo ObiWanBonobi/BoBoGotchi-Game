@@ -27,15 +27,14 @@ function startGame() {
 
     // Play game page
     // Needs bubble
-    function needBubble(){
-        let needs = getRandomInt(4);
+    let monsterNeeds = document.querySelectorAll(".need-icon")
+    let needs = getRandomInt(4);
 
+    function needBubble(){
         showAndHideBubble(needs);
     }
 
     function showAndHideBubble(needs) {
-        let monsterNeeds = document.querySelectorAll(".need-icon")
-
         for (let i = 0; i < monsterNeeds.length; i++){
             if (i === needs){
                 monsterNeeds[i].classList.remove("hide")
@@ -50,4 +49,5 @@ function startGame() {
     }
 
     needBubble();
+
 }
