@@ -12,16 +12,27 @@ body{
     background-color: rgba(100, 180, 110);
 }
 
-/* Hides the div sections on page */
-.hide {
+/* Hides and or displays sections */
+.none {
     display: none;
 }
 
 /* Little monster need bubble */
-.need-bubble{
+#need-bubble{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+}
+
+#need-bubble img{
+    width: 100px;
+    height: 100px;
+
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .need-icon{
