@@ -24,17 +24,6 @@ body{
     margin-top: 50px;
 }
 
-#need-bubble img{
-    width: 100px;
-    height: 100px;
-
-    user-select: none;
-    -moz-user-select: none;
-    -webkit-user-drag: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-}
-
 .need-icon{
     background-color: rgb(136, 19, 19);
     border-radius: 45px;
@@ -58,7 +47,7 @@ body{
     color: rgb(226, 226, 213);
 }
 
-.play-buttons{
+.game-buttons{
     display: flex;
     justify-content: space-evenly;
 }
