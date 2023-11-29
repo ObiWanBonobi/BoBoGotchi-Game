@@ -6,7 +6,7 @@
 }
 
 /* General styles */
-body{
+body {
     font-family: 'Kanit', sans-serif;
     text-align: center;
     background-color: rgba(100, 180, 110);
@@ -18,13 +18,13 @@ body{
 }
 
 /* Little monster need bubble */
-#need-bubble{
+#need-bubble {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.need-icon{
+#need-icon {
     background-color: rgb(136, 19, 19);
     border-radius: 45px;
     width: 130px;
@@ -33,7 +33,7 @@ body{
 }
 
 /* Little monster image */
-#monster-img{
+#monster-img {
     margin: 50px 0 50px 0;
     width: 90%;
     height: auto;
@@ -41,18 +41,18 @@ body{
 
 /* Buttons for start, play section and retry */
 #start-button,
-#end-button{
+#end-button {
     width: 110px;
     font-size: 100%;
     color: rgb(226, 226, 213);
 }
 
-.game-buttons{
+.game-buttons {
     display: flex;
     justify-content: space-evenly;
 }
 
-.buttons{
+.buttons {
     background-color: rgb(19, 136, 27);
     width: 60px;
     height: 60px;
@@ -66,8 +66,7 @@ body{
     background-color: rgb(26, 62, 28);
 }
 
-.img-button{
+.img-button {
     width: 50px;
     height: 50px;
 }
-
