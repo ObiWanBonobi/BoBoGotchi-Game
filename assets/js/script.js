@@ -15,20 +15,26 @@ let endPage = document.getElementsByClassName("end-page");
 let score = 0;
 let gameOver = false;
 
-// Images array
+// Images array and randomizer function
 let needIcon = document.querySelector("#need-icon");
 let iconArray = [
-        "assets/images/pet-water.webp",
-        "assets/images/pet-food.webp",
-        "assets/images/pet-love.webp",
-        "assets/images/pet-play.webp"
+    "assets/images/pet-water.webp",
+    "assets/images/pet-food.webp",
+    "assets/images/pet-love.webp",
+    "assets/images/pet-play.webp"
 ];
 
-function changeImg(needIcon,iconArray) {
-  setInterval(function() {
-    let randomNum = Math.floor(Math.random() * iconArray.length);
-    needIcon.src = iconArray[randomNum];
-  },1500);
+function changeImg(needIcon, iconArray) {
+    setInterval(function () {
+        let randomNum = Math.floor(Math.random() * iconArray.length);
+        needIcon.src = iconArray[randomNum];
+    }, 2000);
+}
+
+function pauseImg() {
+    setInterval(function () {
+        needIcon.src = "assets/images/blank.png";
+    }, 500);
 }
 
 // Toggles the other "pages" on startup
@@ -44,5 +50,5 @@ function startGame() {
     document.querySelector(".play-page").classList.toggle("none");
 
     // Need bubble
-    changeImg(needIcon,iconArray);
+    changeImg(needIcon, iconArray);
 }

@@ -44,6 +44,10 @@
 
 # Design
 
+### Start Page
+
+I wanted to have the the start button to align up with the play buttons, on the play page, so that you dont have to move the mouse when starting the game.
+
 - <b>Font</b> : I got my font from [google fonts](https://fonts.google.com/).
 - <b>Icons</b> : I used the [Font Awesome](https://fontawesome.com/) website for all my icons.
 - <b>Icon images</b> : I got the images for the play buttons from[flaticon](https://www.flaticon.com/).
@@ -92,6 +96,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/index.htm
 - <b>Learning</b> : 
   * [This website](https://www.basedash.com/blog/how-to-add-an-image-in-an-array-in-javascript) helped me to understand how to add images to a JavaScript file.
   * [Thie website](https://stackoverflow.com/questions/63591210/hide-elements-after-a-certain-value-with-javascript) helped me understand how to add my red needs bubble.
-  *
+  * [This website](https://codepen.io/Suza_3/pen/xxbLLzP?editors=1010) helped me undertand better how to randomize my images.
+  * [This Youtube video](https://www.youtube.com/watch?v=ec8vSKJuZTk) helped me understand JavaScript better.
 
 - <b>Most of my credit goes to the Code Institute program where I made notes on every section and got most of my ideas and code from there.</b>
