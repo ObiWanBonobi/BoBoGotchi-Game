@@ -51,3 +51,9 @@ function startGame() {
     // Need bubble where the images toggles between an icon and a blank img
     randomIconInRedBubble();
 }
+
+endButton.addEventListener("click", restartGame);
+
+function restartGame() {
+    location.reload();
+}
