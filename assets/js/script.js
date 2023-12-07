@@ -8,7 +8,6 @@ const playPage = document.getElementsByClassName("play-page");
 const endPage = document.getElementsByClassName("end-page");
 
 // Game statistics
-let score = document.querySelector(".score");
 let result = 0;
 
 // Images array for red need bubble
@@ -40,73 +39,49 @@ function randomIconInRedBubble() {
     }, 1500);
 }
 
+// Will continue the game or finish it
+let userButtonPressed = "";
+let correctButtonClicked = false;
+
+function continueGameOrGameOver(currentScore) {
+    correctButtonClicked = checkPressedButton(userButtonPressed, currentSelectedElement);
+
+    if (correctButtonClicked == true) {
+        // Adds a point to the score
+        result++;
+        score.textContent = result;
+    } else {
+        // leaves the play page and shows the game over page
+        document.querySelector(".end-page").classList.toggle("none");
+    }
+
+    return score;
+}
+
 // Function that plays the game
 function playTheGame() {
     // Starts changing the random Icon bubble
     randomIconInRedBubble();
 
-    // Controls buttons for the game
-    let userButtonPressed = "";
-    let correctButtonClicked = false;
-
+    // Control buttons for the game
     // Water button
     document.getElementById("0").addEventListener("click", function () {
         userButtonPressed = document.getElementById("0").id;
-        correctButtonClicked = checkPressedButton(userButtonPressed, currentSelectedElement);
-        if (correctButtonClicked == true) {
-            // Adds a point to the score
-            result++;
-            score.textContent = result;
-        } else {
-            // leaves the play page and shows the game over page
-            document.querySelector(".end-page").classList.toggle("none");
-            document.querySelector(".play-page").classList.toggle("none");
-        }
     });
 
     // Food button
     document.getElementById("1").addEventListener("click", function () {
         userButtonPressed = document.getElementById("1").id;
-        correctButtonClicked = checkPressedButton(userButtonPressed, currentSelectedElement);
-        if (correctButtonClicked == true) {
-            // Adds a point to the score
-            result++;
-            score.textContent = result;
-        } else {
-            // leaves the play page and shows the game over page
-            document.querySelector(".end-page").classList.toggle("none");
-            document.querySelector(".play-page").classList.toggle("none");
-        }
     });
 
     // Love button
     document.getElementById("2").addEventListener("click", function () {
         userButtonPressed = document.getElementById("2").id;
-        correctButtonClicked = checkPressedButton(userButtonPressed, currentSelectedElement);
-        if (correctButtonClicked == true) {
-            // Adds a point to the score
-            result++;
-            score.textContent = result;
-        } else {
-            // leaves the play page and shows the game over page
-            document.querySelector(".end-page").classList.toggle("none");
-            document.querySelector(".play-page").classList.toggle("none");
-        }
     });
 
     // Play button
     document.getElementById("3").addEventListener("click", function () {
         userButtonPressed = document.getElementById("3").id;
-        correctButtonClicked = checkPressedButton(userButtonPressed, currentSelectedElement);
-        if (correctButtonClicked == true) {
-            // Adds a point to the score
-            result++;
-            score.textContent = result;
-        } else {
-            // leaves the play page and shows the game over page
-            document.querySelector(".end-page").classList.toggle("none");
-            document.querySelector(".play-page").classList.toggle("none");
-        }
     });
 }
 
