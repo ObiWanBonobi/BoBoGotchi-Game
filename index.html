@@ -21,17 +21,13 @@
     <!-- Start game page -->
     <div class="start-page">
         <h1>BoBoGotchi</h1>
-        <br>
         <h2>Play with Bobo</h2>
-        <br>
-        <h3>Rules:</h3>
-        <br>
+        <h3>Rules :</h3>
         <p>
             BoBo is a needy little monster. To play to game you have to click the green icons beneath BoBo, to the
-            corresponding red icon bubble above BoBo. Better hurry up though, BoBo is very needy. Click the wrong green
+            corresponding red icon above BoBo. The more points the happier BoBo gets. Better hurry up though, BoBo is very needy. Click the wrong green
             button and BoBo will die :&#40; .
         </p>
-        <br>
         <button id="start-button" class="buttons">Start game</button>
     </div>
     <!-- Monster play area page, needs, picture and buttons -->
@@ -44,7 +40,9 @@
             <img id="need-icon" src="assets/images/blank.png" alt="Icons">
         </div>
         <!-- Monster image -->
-        <img id="monster-img" src="assets/images/cute.svg" alt="cute monster">
+        <div>
+            <img id="monster-img" src="" alt="cute monster">
+        </div>
         <!-- Monster play buttons -->
         <div class="game-buttons">
             <button class="buttons controlbutton">
@@ -64,15 +62,10 @@
     <!-- Game over page -->
     <div class="end-page none">
         <h1>BoBoGotchi</h1>
-        <br>
-        <h2>You couldn't keep up with BoBo's needs.</h2>
-        <br>
         <h2>BoBo died, RIP.</h2>
-        <br>
+        <h3>You couldn't keep up with BoBo's needs.</h3>
         <h3>Your score is : <span class="score">0</span></h3>
-        <br>
         <button id="end-button" class="buttons">Play again</button>
-        <br>
         <p><em>Playing again will delete your current score.</em></p>
     </div>
     <script src="assets/js/script.js"></script>

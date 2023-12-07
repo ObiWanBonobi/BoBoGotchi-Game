@@ -36,8 +36,8 @@ function randomIconInRedBubble() {
 
     setTimeout(function () {
         redNeedIcon.src = "assets/images/blank.png";
-        setTimeout(randomIconInRedBubble, 700);
-    }, 2000);
+        setTimeout(randomIconInRedBubble, 300);
+    }, 1500);
 }
 
 // Function that plays the game

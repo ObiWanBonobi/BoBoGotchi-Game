@@ -94,6 +94,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/index.htm
 - <b>Code help</b> : I got some help from my mentor, [Oluwafemi Medale](https://github.com/omedale), who helped me with some future ideas. And my brother in law, [Steffen Bjerkenås](https://github.com/stebje), who taught me a lot about JavaScript and helped me with some of the code.
 - <b>README</b> : I copied some of the Readme code from my [previous Project](https://github.com/ObiWanBonobi/PP1/blob/main/README.md).
 - <b>JavaScript</b> : I got some of my JavaScript ideas from [this online project](https://codepen.io/Creasium/pen/NWGOGrr?editors=1000).
+- <b>Picture</b> : I got my little monster image from [this website](https://www.vectorstock.com/royalty-free-vector/cute-cartoon-monsters-vector-18671920). I changed the look of the face with Paint 3D.
 - <b>Learning</b> : 
   * [This website](https://www.basedash.com/blog/how-to-add-an-image-in-an-array-in-javascript) helped me to understand how to add images to a JavaScript file.
   * [Thie website](https://stackoverflow.com/questions/63591210/hide-elements-after-a-certain-value-with-javascript) helped me understand how to add my red needs bubble.
