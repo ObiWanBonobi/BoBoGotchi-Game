@@ -35,8 +35,8 @@ function randomIconInRedBubble() {
 
     setTimeout(function () {
         redNeedIcon.src = "assets/images/blank.png";
-        setTimeout(randomIconInRedBubble, 300);
-    }, 1500);
+        setTimeout(randomIconInRedBubble, 200);
+    }, 1250);
 }
 
 // Will continue the game or finish it
@@ -44,22 +44,33 @@ let userButtonPressed = "";
 let correctButtonClicked = false;
 
 function continueGameOrGameOver(currentScore) {
+    let score = currentScore;
+    let scoreDisplayGame = document.getElementById("score-display-game");
+    let scoreDisplayFinal = document.getElementById("score-display-final");
+
     correctButtonClicked = checkPressedButton(userButtonPressed, currentSelectedElement);
 
     if (correctButtonClicked == true) {
         // Adds a point to the score
-        result++;
-        score.textContent = result;
+        score++;
+        scoreDisplayGame.textContent = score;
     } else {
         // leaves the play page and shows the game over page
         document.querySelector(".end-page").classList.toggle("none");
+        document.querySelector(".play-page").classList.toggle("none");
+        scoreDisplayFinal.textContent = score;
     }
 
     return score;
 }
 
 // Function that plays the game
-function playTheGame() {
+function playTheGame(result) {
+    // checks score and changes image the higher the score
+    let initialScore = result;
+    let gameScore = initialScore;
+    determineMonsterImage(result);
+
     // Starts changing the random Icon bubble
     randomIconInRedBubble();
 
@@ -67,22 +78,31 @@ function playTheGame() {
     // Water button
     document.getElementById("0").addEventListener("click", function () {
         userButtonPressed = document.getElementById("0").id;
+        gameScore = continueGameOrGameOver(gameScore);
+        determineMonsterImage(gameScore);
     });
 
     // Food button
     document.getElementById("1").addEventListener("click", function () {
         userButtonPressed = document.getElementById("1").id;
+        gameScore = continueGameOrGameOver(gameScore);
+        determineMonsterImage(gameScore);
     });
 
     // Love button
     document.getElementById("2").addEventListener("click", function () {
         userButtonPressed = document.getElementById("2").id;
+        gameScore = continueGameOrGameOver(gameScore);
+        determineMonsterImage(gameScore);
     });
 
     // Play button
     document.getElementById("3").addEventListener("click", function () {
         userButtonPressed = document.getElementById("3").id;
+        gameScore = continueGameOrGameOver(gameScore);
+        determineMonsterImage(gameScore);
     });
+
 }
 
 // Check if the clicked button is correct
@@ -91,6 +111,23 @@ function checkPressedButton(pressedButton, currentIcon) {
         return true;
     } else {
         return false;
+    }
+}
+
+// changes BoBo's image the more points you score
+function determineMonsterImage(score) {
+    let monsterImage = document.querySelector("#monster-img");
+
+    if (score > 5) {
+        monsterImage.src = "assets/images/cute-monster-normal.png";
+    }
+
+    if (score > 10) {
+        monsterImage.src = "assets/images/cute-monster-happy.png";
+    }
+
+    if (score > 15) {
+        monsterImage.src = "assets/images/cute-monster-very-happy.png";
     }
 }
 
@@ -103,7 +140,7 @@ function startGame() {
     document.querySelector(".play-page").classList.toggle("none");
 
     // plays the game
-    playTheGame();
+    playTheGame(result);
 }
 
 // Restart page button
