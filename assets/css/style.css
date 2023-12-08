@@ -34,7 +34,9 @@ p {
     padding: 0 10px 0 10px;
 }
 
-.play-page h2 {
+.play-page h2,
+.end-page h2,
+.end-page h3 {
     padding-top: 10px;
 }
 
@@ -54,19 +56,25 @@ p {
 }
 
 /* Little monster image */
-#monster-img {
+.monster-img {
     margin: 30px 0 30px 0;
     width: 70%;
     height: auto;
 }
 
 /* Buttons for start, play section and retry */
-#start-button,
-#end-button {
+#start-button {
     width: 110px;
     font-size: 100%;
     color: rgb(226, 226, 213);
     margin: 40px 0 40px 0;
+}
+
+#retry-button {
+    width: 110px;
+    font-size: 100%;
+    color: rgb(226, 226, 213);
+    margin: 0 0 20px 0;
 }
 
 .game-buttons {
@@ -88,7 +96,7 @@ p {
     background-color: rgb(26, 62, 28);
 }
 
-.img-button {
+.play-button {
     width: 50px;
     height: 50px;
 }

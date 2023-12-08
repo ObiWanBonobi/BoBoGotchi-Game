@@ -41,21 +41,21 @@
         </div>
         <!-- Monster image -->
         <div>
-            <img id="monster-img" src="assets/images/cute-monster-angry.png" alt="cute monster">
+            <img class="monster-img" src="assets/images/cute-monster-angry.png" alt="cute monster with different emotions">
         </div>
         <!-- Monster play buttons -->
         <div class="game-buttons">
             <button class="buttons controlbutton">
-                <img class="img-button" id="0" src="assets/images/pet-water.webp" alt="water bowl icon">
+                <img class="play-button" id="0" src="assets/images/pet-water.webp" alt="water bowl icon">
             </button>
             <button class="buttons controlbutton">
-                <img class="img-button" id="1" src="assets/images/pet-food.webp" alt="food bowl icon">
+                <img class="play-button" id="1" src="assets/images/pet-food.webp" alt="food bowl icon">
             </button>
             <button class="buttons controlbutton">
-                <img class="img-button" id="2" src="assets/images/pet-love.webp" alt="love icon">
+                <img class="play-button" id="2" src="assets/images/pet-love.webp" alt="love icon">
             </button>
             <button class="buttons controlbutton">
-                <img class="img-button" id="3" src="assets/images/pet-play.webp" alt="play icon">
+                <img class="play-button" id="3" src="assets/images/pet-play.webp" alt="play icon">
             </button>
         </div>
     </div>
@@ -65,7 +65,10 @@
         <h2>BoBo died, RIP.</h2>
         <h3>You couldn't keep up with BoBo's needs.</h3>
         <h3>Your final score is : <span id="score-display-final">0</span></h3>
-        <button id="end-button" class="buttons">Play again</button>
+        <div>
+            <img class="monster-img" src="assets/images/cute-monster-dead.png" alt="dead cute monster">
+        </div>
+        <button id="retry-button" class="buttons">Play again</button>
         <p><em>Playing again will delete your current score.</em></p>
     </div>
     <script src="assets/js/script.js"></script>

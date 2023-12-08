@@ -1,6 +1,6 @@
 // Play buttons
 const startButton = document.getElementById("start-button");
-const endButton = document.getElementById("end-button");
+const retryButton = document.getElementById("retry-button");
 
 // Page changes
 const startPage = document.getElementsByClassName("start-page");
@@ -144,7 +144,7 @@ function startGame() {
 }
 
 // Restart page button
-endButton.addEventListener("click", restartGame);
+retryButton.addEventListener("click", restartGame);
 
 // Reloads the page to show the start page again
 function restartGame() {
