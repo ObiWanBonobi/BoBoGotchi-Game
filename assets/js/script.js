@@ -116,7 +116,7 @@ function checkPressedButton(pressedButton, currentIcon) {
 
 // changes BoBo's image the more points you score
 function determineMonsterImage(score) {
-    let monsterImage = document.querySelector("#monster-img");
+    let monsterImage = document.querySelector(".monster-img");
 
     if (score > 5) {
         monsterImage.src = "assets/images/cute-monster-normal.png";
