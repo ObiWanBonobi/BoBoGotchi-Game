@@ -5,7 +5,6 @@ const retryButton = document.getElementById("retry-button");
 // Page changes
 const startPage = document.getElementsByClassName("start-page");
 const playPage = document.getElementsByClassName("play-page");
-const endPage = document.getElementsByClassName("end-page");
 
 // Game statistics
 let result = 0;
@@ -34,7 +33,7 @@ function randomIconInRedBubble() {
     currentSelectedElement = selectedElement;
 
     setTimeout(function () {
-        redNeedIcon.src = "assets/images/blank.png";
+        redNeedIcon.src = "assets/images/blank.webp";
         setTimeout(randomIconInRedBubble, 200);
     }, 1250);
 }
@@ -119,15 +118,15 @@ function determineMonsterImage(score) {
     let monsterImage = document.querySelector(".monster-img");
 
     if (score > 5) {
-        monsterImage.src = "assets/images/cute-monster-normal.png";
+        monsterImage.src = "assets/images/cute-monster-normal.webp";
     }
 
     if (score > 10) {
-        monsterImage.src = "assets/images/cute-monster-happy.png";
+        monsterImage.src = "assets/images/cute-monster-happy.webp";
     }
 
     if (score > 15) {
-        monsterImage.src = "assets/images/cute-monster-very-happy.png";
+        monsterImage.src = "assets/images/cute-monster-very-happy.webp";
     }
 }
 
@@ -136,8 +135,8 @@ startButton.addEventListener("click", startGame);
 
 function startGame() {
     // Shows the Play page, hides the start page
-    document.querySelector(".start-page").classList.toggle("none");
-    document.querySelector(".play-page").classList.toggle("none");
+    startPage.classList.toggle("none");
+    playPage.classList.toggle("none");
 
     // plays the game
     playTheGame(result);

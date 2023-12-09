@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!--Meta tags for search engines-->
+    <meta name="description"
+        content="BoBoGotchi | A simple but tough game | Click the corresponding buttons to the need icon">
+    <meta name="keywords"
+        content="BoBoGotchi, Tamagotchi, game, simple game, frustrating game, cute monster, javascript game">
     <!-- Google Font and Font awesome icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,8 +16,9 @@
         href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
+    <!--Stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--title-->
     <title>BoBoGotchi</title>
 </head>
 
@@ -25,7 +30,8 @@
         <h3>Rules :</h3>
         <p>
             BoBo is a needy little monster. To play to game you have to click the green buttons beneath BoBo, to the
-            corresponding red icon above BoBo. The more points the happier BoBo gets. Better hurry up though, BoBo is very needy. Click the wrong green
+            corresponding red icon above BoBo. The more points the happier BoBo gets. Better hurry up though, BoBo is
+            very needy. Click the wrong green
             button and BoBo will die :&#40; .
         </p>
         <button id="start-button" class="buttons">Start game</button>
@@ -35,13 +41,14 @@
         <h1>BoBoGotchi</h1>
         <!-- Score -->
         <h2>Score : <span id="score-display-game">0</span></h2>
-        <!-- Monster needs -->
+        <!-- Monster needs bubble -->
         <div id="need-bubble">
-            <img id="need-icon" src="assets/images/blank.png" alt="Icons">
+            <img id="need-icon" src="assets/images/blank.webp" alt="Monster need icons">
         </div>
         <!-- Monster image -->
         <div>
-            <img class="monster-img" src="assets/images/cute-monster-angry.png" alt="cute monster with different emotions">
+            <img class="monster-img" src="assets/images/cute-monster-angry.webp"
+                alt="cute monster with different emotions">
         </div>
         <!-- Monster play buttons -->
         <div class="game-buttons">
@@ -64,13 +71,15 @@
         <h1>BoBoGotchi</h1>
         <h2>BoBo died, RIP.</h2>
         <h3>You couldn't keep up with BoBo's needs.</h3>
+        <!-- Shows your final score -->
         <h3>Your final score is : <span id="score-display-final">0</span></h3>
         <div>
-            <img class="monster-img" src="assets/images/cute-monster-dead.png" alt="dead cute monster">
+            <img class="monster-img" src="assets/images/cute-monster-dead.webp" alt="dead cute monster">
         </div>
         <button id="retry-button" class="buttons">Play again</button>
         <p><em>Playing again will delete your current score.</em></p>
     </div>
+    <!--Javascript-->
     <script src="assets/js/script.js"></script>
 </body>
 

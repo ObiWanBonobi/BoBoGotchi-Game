@@ -130,12 +130,17 @@ p {
     }
 
     .buttons {
-        padding: 15px;
+        padding: 10px;
+    }
+
+    .controlbutton {
+        width: 90px;
+        height: 90px;
     }
 
     .play-button {
-        width: 90px;
-        height: 90px;
+        width: 70px;
+        height: 70px;
     }
 }
 
@@ -168,8 +173,13 @@ p {
         height: 60px;
     }
 
+    .controlbutton {
+        width: 100px;
+        height: 100px;
+    }
+
     .play-button {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
     }
 }
