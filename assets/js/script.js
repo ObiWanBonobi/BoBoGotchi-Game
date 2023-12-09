@@ -2,10 +2,6 @@
 const startButton = document.getElementById("start-button");
 const retryButton = document.getElementById("retry-button");
 
-// Page changes
-const startPage = document.getElementsByClassName("start-page");
-const playPage = document.getElementsByClassName("play-page");
-
 // Game statistics
 let result = 0;
 
@@ -135,8 +131,8 @@ startButton.addEventListener("click", startGame);
 
 function startGame() {
     // Shows the Play page, hides the start page
-    startPage.classList.toggle("none");
-    playPage.classList.toggle("none");
+    document.querySelector(".start-page").classList.toggle("none");
+    document.querySelector(".play-page").classList.toggle("none");
 
     // plays the game
     playTheGame(result);
