@@ -102,7 +102,11 @@ After you've pressed the wrong button and you straigt up murdered the cutest mon
 
 ### Colour scheme
 
+I wanted to use cute and bright colours for a fun look. And I gave it a water melon colour palette. I chose a simple design bit big buttons and not too much destraction.
 
+<br>
+
+![Colour scheme](assets/images/readme/colour-palette.png)
 
 <br>
 
@@ -111,40 +115,74 @@ After you've pressed the wrong button and you straigt up murdered the cutest mon
 - The website is written in HTML, CSS and JavaScript.
 - I did all my coding with the program VS Code, [Visual Studio Code](https://code.visualstudio.com/).
 - All my code was uploaded to [Github](https://github.com/), to my [Github account](https://github.com/ObiWanBonobi).
+- I used Google Chrome Dev Tools to test throughout the process of creating this game.
 
 ### Balsemiq
 
-The project started with Balsamiq, where I imagined the beginning of the game on all device sizes.
+<details>
+<summary>The project started with Balsamiq, where I imagined the beginning of the game on all device sizes.</summary>
+
+<br>
+
+![Balsemiq start page](assets/images/readme/start-page-balsamiq.png)
+
+<br>
+
+![Balsemiq play page](assets/images/readme/play-page-balsamiq.png)
+
+<br>
+
+![Balsemiq end page](assets/images/readme/end-page-balsemiq.png)
+
+</details>
 
 <br>
 
 # Testing
 
-Every link and button on all pages got tested on several devices and webbrowsers.
+Every link and button on all pages got tested on several devices and webbrowsers :
+
+- &#9745; The start game button on the start page
+- &#9745; The water button on the play page
+- &#9745; The food button on the play page
+- &#9745; The love button on the play page
+- &#9745; The play button on the play page
+- &#9745; The retry game button on the end page
+
+<br>
 
 ## Validation HTML, JavaScript and CSS
 
-The HTML validator came back without any issues. I used [this website](https://validator.w3.org/) to test my code.
+<details>
+<summary>The HTML validator came back without any issues. I used [this website](https://validator.w3.org/) to test my code.</summary>
 
 <br>
 
 ![HTML validator](assets/images/readme/html-validation.png)
 
+</details>
+
 <br>
 
-The CSS validator also came back without any issues. I used [this website](https://jigsaw.w3.org/css-validator/) to test my code.
+<details>
+<summary>The CSS validator also came back without any issues. I used [this website](https://jigsaw.w3.org/css-validator/) to test my code.</summary>
 
 <br>
 
 ![CSS validator](assets/images/readme/css-validation.png)
 
+</details>
+
 <br>
 
-The JavaScript validator also came back without any issues. I used [this website](https://jshint.com/) to test my code.
+<details>
+<summary>The JavaScript validator also came back without any issues. I used [this website](https://jshint.com/) to test my code.</summary>
 
 <br>
 
 ![JavaScript validator](assets/images/readme/javascript-validation.png)
+
+</details>
 
 <br>
 
@@ -152,7 +190,19 @@ The JavaScript validator also came back without any issues. I used [this website
 
 ## Testing on devices and browsers
 
+I tested the deployed wedsite on several devices webbrowsers :
+- Iphone 14
+- Google pixel 7
+- Samsung galaxy tab S6
+- HP envy 
+- PC build
+- Apple Macbook
+
 <br>
+
+- Google chrome
+- Microsoft edge
+- Apple Safari
 
 # Bug fixes
 
@@ -160,11 +210,27 @@ The JavaScript validator also came back without any issues. I used [this website
 
 # Deployment
 
-The website was deployed to my account on GitHub pages. The steps I took to deploy the website went as followed: 
+The website was deployed to my account on GitHub pages. The steps I took to deploy the website went as followed : 
   - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
   - In there, I navigated to the Settings tab.
   - From the source section drop-down menu, I selected the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+To fork this repository on Github, you have to :
+  - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
+  - In the top-right corner of the page, click Fork.
+  - Under "Owner," select the dropdown menu and click an owner for the forked repository.
+  - By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
+  - Click Create fork.
+
+To clone this repository, you have to :
+  - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
+  - Above the list of files, click  Code.
+  - Copy the URL for the repository.
+  - Open Git Bash.
+  - Change the current working directory to the location where you want the cloned directory.
+  - Type git clone, and then paste the URL you copied earlier.
+  - Press Enter to create your local clone.
 
 You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/).
 
@@ -177,6 +243,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/).
 - <b>README</b> : I copied some of the Readme code from my [previous Project](https://github.com/ObiWanBonobi/PP1/blob/main/README.md).
 - <b>JavaScript</b> : I got some of my JavaScript ideas from [this online project](https://codepen.io/Creasium/pen/NWGOGrr?editors=1000). And learned a lot from [the YouTube channel freeCodeCamp.org](https://www.youtube.com/@freecodecamp).
 - <b>Picture</b> : I got my little monster image from [this website](https://www.vectorstock.com/royalty-free-vector/cute-cartoon-monsters-vector-18671920). I changed the look of the face with Paint 3D.
+- <b>Deployment info</b> : I got the [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) info from the Github help page.
 - <b>Learning</b> : 
   * [This website](https://www.basedash.com/blog/how-to-add-an-image-in-an-array-in-javascript) helped me to understand how to add images to a JavaScript file.
   * [Thie website](https://stackoverflow.com/questions/63591210/hide-elements-after-a-certain-value-with-javascript) helped me understand how to add my red needs bubble.
