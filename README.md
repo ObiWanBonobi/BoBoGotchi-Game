@@ -102,7 +102,7 @@ After you've pressed the wrong button and you straigt up murdered the cutest mon
 
 ### Colour scheme
 
-I wanted to use cute and bright colours for a fun look. And I gave it a water melon colour palette. I chose a simple design bit big buttons and not too much destraction.
+I wanted to use cute and bright colours for a fun look. And I gave it a water melon colour palette. I chose a simple design bit big buttons and not too much distraction.
 
 <br>
 
@@ -116,6 +116,10 @@ I wanted to use cute and bright colours for a fun look. And I gave it a water me
 - I did all my coding with the program VS Code, [Visual Studio Code](https://code.visualstudio.com/).
 - All my code was uploaded to [Github](https://github.com/), to my [Github account](https://github.com/ObiWanBonobi).
 - I used Google Chrome Dev Tools to test throughout the process of creating this game.
+
+### Am I responsive
+
+![Am I responsive](assets/images/readme/am-i-responsive-start.png)
 
 ### Balsemiq
 
@@ -165,6 +169,17 @@ Every link and button on all pages got tested on several devices and webbrowsers
 <br>
 
 <details>
+<summary>For the 404 page the HTML validator was also without any issues. I used [this website](https://validator.w3.org/) to test my code.</summary>
+
+<br>
+
+![HTML for 404 page validator](assets/images/readme/html-validation-404.png)
+
+</details>
+
+<br>
+
+<details>
 <summary>The CSS validator also came back without any issues. I used [this website](https://jigsaw.w3.org/css-validator/) to test my code.</summary>
 
 <br>
@@ -196,8 +211,6 @@ Both desktop and mobile lighthouse test came back with positive results :
 
 ![Desktop lighthouse test](assets/images/readme/lighthouse-test-desktop.png)
 
-
-
 - mobile
 
 <br>
@@ -223,6 +236,17 @@ I tested the deployed wedsite on several devices webbrowsers :
 - Apple Safari
 
 # Bug fixes
+
+- I initially started the game with creating a need icon that changes after so many seconds. However when I started working on pressing the correct buttons to the corresponding icons shown, I needed to change around that whole bit of code to get it to work. Because I didn't have enough knowledge about javascript, I learned all this while trying out things whilst watching youtube videos.
+- I initially made the need icon with two functions which I couldn't get to work, with more practice I realised that I needed to put it into one function.
+- I tried to match up the name of the array and the id text, but I didn't have enough knowledge yet of how to do that. I later on scrapped that and used boolean.
+- I then had some issues with the images not loading in. I had used incorrect JavaScript paths, which I figured out myself later
+- Had some issues with the score not updating. I fixed this with the help of my brother-in-law, who works for Github. He taught me a lot!
+- My mentor told me I was using a lot of let and I should have been using const. I changed it all after our meeting.
+- I noticed I had some unused lines in JavaScript, I tried to use them and make a line shorter from :  startPage.classList.toggle("none");  to   document.querySelector(".play-page").classList.toggle("none");. That didn't work so I had to turn it back and delete the unused lines for better readability.
+- Accidentally left a bit of code at the top of the 404 page from another "how to" video : permalink: /404.html
+
+<b>I have not noticed any existing bugs.</b>
 
 <br>
 
@@ -262,7 +286,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/).
 - <b>JavaScript</b> : I got some of my JavaScript ideas from [this online project](https://codepen.io/Creasium/pen/NWGOGrr?editors=1000). And learned a lot from [the YouTube channel freeCodeCamp.org](https://www.youtube.com/@freecodecamp).
 - <b>Picture</b> : I got my little monster image from [this website](https://www.vectorstock.com/royalty-free-vector/cute-cartoon-monsters-vector-18671920). I changed the look of the face with Paint 3D.
 - <b>Deployment info</b> : I got the [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) info from the Github help page.
-- <b>404</b> : My accessor of my PP1 project gave me the idea to use a 404 page. I found [this](https://www.portent.com/blog/seo/create-a-great-404-page.htm) website online that helped me code it.
+- <b>404</b> : My accessor of my PP1 project gave me the idea to use a 404 page. I found [this](https://www.youtube.com/watch?v=QkB5ZxeYaJQ) website online that helped me code it.
 - <b>Learning</b> : 
   * [This website](https://www.basedash.com/blog/how-to-add-an-image-in-an-array-in-javascript) helped me to understand how to add images to a JavaScript file.
   * [Thie website](https://stackoverflow.com/questions/63591210/hide-elements-after-a-certain-value-with-javascript) helped me understand how to add my red needs bubble.
