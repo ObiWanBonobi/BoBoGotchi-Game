@@ -188,6 +188,24 @@ Every link and button on all pages got tested on several devices and webbrowsers
 
 ## Lighthouse test
 
+Both desktop and mobile lighthouse test came back with positive results :
+
+- desktop
+
+<br>
+
+![Desktop lighthouse test](assets/images/readme/lighthouse-test-desktop.png)
+
+
+
+- mobile
+
+<br>
+
+![Mobile lighthouse test](assets/images/readme/lighthouse-test-mobile.png)
+
+<br>
+
 ## Testing on devices and browsers
 
 I tested the deployed wedsite on several devices webbrowsers :
@@ -244,6 +262,7 @@ You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/).
 - <b>JavaScript</b> : I got some of my JavaScript ideas from [this online project](https://codepen.io/Creasium/pen/NWGOGrr?editors=1000). And learned a lot from [the YouTube channel freeCodeCamp.org](https://www.youtube.com/@freecodecamp).
 - <b>Picture</b> : I got my little monster image from [this website](https://www.vectorstock.com/royalty-free-vector/cute-cartoon-monsters-vector-18671920). I changed the look of the face with Paint 3D.
 - <b>Deployment info</b> : I got the [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) and [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) info from the Github help page.
+- <b>404</b> : My accessor of my PP1 project gave me the idea to use a 404 page. I found [this](https://www.portent.com/blog/seo/create-a-great-404-page.htm) website online that helped me code it.
 - <b>Learning</b> : 
   * [This website](https://www.basedash.com/blog/how-to-add-an-image-in-an-array-in-javascript) helped me to understand how to add images to a JavaScript file.
   * [Thie website](https://stackoverflow.com/questions/63591210/hide-elements-after-a-certain-value-with-javascript) helped me understand how to add my red needs bubble.
