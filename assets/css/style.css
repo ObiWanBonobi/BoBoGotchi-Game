@@ -102,6 +102,11 @@ p {
     height: 50px;
 }
 
+/* 404 page link */
+a {
+    color: rgb(136, 19, 19);
+}
+
 /* Media query: tablet and larger (768px and up) */
 @media screen and (min-width: 768px) {
     body {
