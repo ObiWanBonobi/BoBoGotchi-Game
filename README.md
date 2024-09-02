@@ -6,7 +6,7 @@
 
 <br>
 
-[Click on this link to visit the game](https://obiwanbonobi.github.io/PP2/)
+[Click on this link to visit the game](https://obiwanbonobi.github.io/BoBoGotchi-Game/)
 
 <br>
 
@@ -253,20 +253,20 @@ I tested the deployed wedsite on several devices webbrowsers :
 # Deployment
 
 The website was deployed to my account on GitHub pages. The steps I took to deploy the website went as followed : 
-  - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
+  - Go to my [GitHub repository called BoBoGotchi-Game](https://github.com/ObiWanBonobi/BoBoGotchi-Game).
   - In there, I navigated to the Settings tab.
   - From the source section drop-down menu, I selected the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 To fork this repository on Github, you have to :
-  - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
+  - Go to my [GitHub repository called BoBoGotchi-Game](https://github.com/ObiWanBonobi/BoBoGotchi-Game).
   - In the top-right corner of the page, click Fork.
   - Under "Owner," select the dropdown menu and click an owner for the forked repository.
   - By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
   - Click Create fork.
 
 To clone this repository, you have to :
-  - Go to my [GitHub repository called PP2](https://github.com/ObiWanBonobi/PP2).
+  - Go to my [GitHub repository called BoBoGotchi-Game](https://github.com/ObiWanBonobi/BoBoGotchi-Game).
   - Above the list of files, click  Code.
   - Copy the URL for the repository.
   - Open Git Bash.
@@ -274,7 +274,7 @@ To clone this repository, you have to :
   - Type git clone, and then paste the URL you copied earlier.
   - Press Enter to create your local clone.
 
-You can see deployed wedsite [here](https://obiwanbonobi.github.io/PP2/).
+You can see deployed wedsite [here](https://obiwanbonobi.github.io/BoBoGotchi-Game/).
 
 <br>
 
